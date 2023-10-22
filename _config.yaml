@@ -6,11 +6,25 @@ plugins_dir         : _plugins # takes an array of strings and loads plugins in 
 layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
+remote_theme        : creative-theme-jekyll
 sass:
   sass_dir: _sass
 collections:
   posts:
     output          : true
+
+# Site settings
+title:
+email:
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
 
 # Handling Reading
 safe                : false
