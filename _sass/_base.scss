@@ -156,9 +156,9 @@ header {
     @include background-cover;
     background-position: center;
     background-image: url('img/header.jpg');
-    background-color: #000; // Fallback background color
+    /*background-color: #000; // Fallback background color*/
     text-align: center;
-    color: white;
+    color: black;
     .header-content {
         position: relative;
         text-align: center;
