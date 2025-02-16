@@ -155,7 +155,8 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('/assets/img/header.jpg');
+    background-image: url('img/header.jpg');
+    background-color: #000; // Fallback background color
     text-align: center;
     color: white;
     .header-content {
