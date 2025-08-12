@@ -155,10 +155,10 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/foto.jpg');
+    background-image: url('../img/foto.jpeg');
     /*background-color: #000; // Fallback background color*/
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
     .header-content {
         position: relative;
         text-align: center;
